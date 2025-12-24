@@ -255,7 +255,7 @@ This message shows that your installation appears to be working correctly.
 ### Clone this repository and move to example folder
 
 ```
-git clone https://github.com/iam-veeramalla/Docker-Zero-to-Hero
+git clone https://github.com/Rajmodi340/Docker-Zero-to-Hero
 cd  examples
 ```
 
@@ -281,7 +281,7 @@ Login Succeeded
 You need to change the username accoringly in the below command
 
 ```
-docker build -t abhishekf5/my-first-docker-image:latest .
+docker build -t rajmodi09/my-first-docker-image:latest .
 ```
 
 Output of the above command
@@ -332,7 +332,7 @@ hello-world                        latest    feb5d9fea6a5   16 months ago    13.
 ### Run your First Docker Container
 
 ```
-docker run -it abhishekf5/my-first-docker-image
+docker run -it rajmodi09/my-first-docker-image
 ```
 
 Output
@@ -344,7 +344,7 @@ Hello World
 ### Push the Image to DockerHub and share it with the world
 
 ```
-docker push abhishekf5/my-first-docker-image
+docker push rajmodi09/my-first-docker-image
 ```
 
 Output
